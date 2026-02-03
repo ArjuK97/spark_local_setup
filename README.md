@@ -47,6 +47,7 @@ Inside the project folder, run:
 
 ```
 docker-compose down && docker-compose up -d --build
+docker-compose down ; docker-compose up -d --build    ####for powershell
 ```
 
 This will:
