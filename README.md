@@ -75,7 +75,11 @@ To run `job.py` inside the cluster, execute in vs code terminal:
 docker exec -it spark-master /opt/spark/bin/spark-submit /opt/spark-app/job.py
 ```
 
+### **Step 7: Check JDK version**
 
+Currently the pyspark 3.5 is working on the 3.11 JDK if you have the latest JDK installed uninstall it and dowload the JDK 11.xx
+
+*[https://adoptium.net/en-GB/temurin/releases?version=11](https://adoptium.net/en-GB/temurin/releases?version=11)
 ---
 
 ## 🔵 **Optional Features**
